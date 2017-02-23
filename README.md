@@ -7,7 +7,7 @@ A: The naked twin technique uses that constraint that no other box in a unit can
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: For solving the diagonal sudoku problem we add the 2 diagonals in our unit list. This creates two new constraints, i.e. in each of the diagonal units, the digits 1-9 must appear only once. The elimination, only_choice, depth first search, naked_twins strategies and other strategies remain same.
+A: For solving the diagonal sudoku problem we add the 2 diagonals in our unit list. This creates two new constraints, i.e. in each of the diagonal units, the digits 1-9 must appear only once. The elimination, only_choice, depth first search, naked_twins and other strategies remain same.
 
 ### Install
 
