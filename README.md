@@ -3,7 +3,7 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: The naked twin technique uses that constraint that no other box in a unit can have the same values as contained in the boxes that contain naked twins. To implement this technique, we first find the boxes that have naked twins and then remove these values (naked twin values) from all other boxes of the same unit. Thus we are using a constraint for reducing the search space.
+A: The naked twin technique uses the constraint that no other box in a unit can have the same values as contained in the boxes that contain naked twins. To implement this technique, we first find the boxes that have naked twins and then remove these values (digits) from all other boxes of the same unit (peers). Thus we are using a local constraint for reducing the search space.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
