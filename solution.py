@@ -26,8 +26,8 @@ def naked_twins(values):
         # Find pairs
         pairs = [box for box in unit if len(values[box]) == 2]
         # Pairwise combinations
-        poss_twins = [list(pair) for pair in itertools.combinations(pairs, 2)]
-        for pair in poss_twins:
+        possible_twins = [list(pair) for pair in itertools.combinations(pairs, 2)]
+        for pair in possible_twins:
             box_a = pair[0]
             box_b = pair[1]
             # Find the naked twins
